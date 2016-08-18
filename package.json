@@ -1,0 +1,16 @@
+{
+  "name": "custom-slack-integration",
+  "version": "0.0.1",
+  "description": "Use webhooks and stateless middleware to set up custom Slack notifications in minutes!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Brenda Jin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "requestify": "^0.1.17"
+  }
+}

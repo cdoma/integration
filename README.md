@@ -1,3 +1,3 @@
-# integration
+# Custom Slack Integration
 
-by brendajin
+This is a demo for making easy custom Slack integrations using webhooks.
