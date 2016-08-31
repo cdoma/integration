@@ -15,6 +15,13 @@ app.post('/', function(req, res){
 	if (req.get('X-GitHub-Event') == 'fork'){
 		slack.sendMessage({
 			'text': '<' + req.body.sender.url + '|' + req.body.sender.login + '> forked <' + req.body.repository.url + '|' + req.body.repository.name + '>',
+			'attachments':[
+				{
+				            "text": '<' + req.body.sender.url + '|' + req.body.sender.login + '> forked <' + req.body.repository.url + '|' + req.body.repository.name + '>',
+				            "image_url": req.body.sender.avatar_url,
+					    "color":"#05ffff"
+		        	}
+			]
 		});
 	}
 	res.sendStatus(200);
