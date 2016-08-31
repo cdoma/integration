@@ -1,3 +1,3 @@
 # Custom Slack Integration
 
-by brendajin.
+by betina.
