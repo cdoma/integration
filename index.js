@@ -19,7 +19,7 @@ app.post('/', function(req, res){
 				{
 				            "text": '<' + req.body.sender.url + '|' + req.body.sender.login + '> forked <' + req.body.repository.url + '|' + req.body.repository.name + '>',
 				            "image_url": req.body.sender.avatar_url,
-					    "color":"#05ffff"
+					    "color":"#36a2cd"
 		        	}
 			]
 		});
@@ -34,7 +34,7 @@ app.post('/', function(req, res){
 });
 
 app.get('/', function(req, res){
-	res.send('hello!');
+	res.send('keep on rockin!');
 });
 
 app.listen(port, function() {
