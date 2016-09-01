@@ -24,9 +24,9 @@ app.post('/', function(req, res){
 			]
 		});
 	}
-	if (req.get('X-GitHub-Event') == 'watch'){
+	if (req.get('X-GitHub-Event') == 'status'){
 		slack.sendMessage({
-			'text': '<' + req.body.sender.url + '|' + req.body.sender.login + '> ' + req.body.action + ' watching <' + req.body.repository.url + '|' + req.body.repository.name + '>'
+			'text': '<' + req.body.sender.url + '|' + req.body.sender.login + '> ' + req.body.action + ' status <' + req.body.repository.url + '|' + req.body.repository.name + '>'
 		});
 	}
 	
