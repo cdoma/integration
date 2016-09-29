@@ -1,3 +1,3 @@
 # Custom Slack Integration
 
-by betina.
+by cdoma.
