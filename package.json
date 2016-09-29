@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Betina Arguelles",
+  "author": "christina Doma",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
